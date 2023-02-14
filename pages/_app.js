@@ -19,10 +19,11 @@ function MyApp({ Component, pageProps }) {
         setUserData: setUserData,
         calculatedDataAll: calculatedDataAll,
         setCalculatedDataAll: setCalculatedDataAll,
-      }}>
+      }}
+    >
       <Script
         strategy="beforeInteractive"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-YFRBJX664J`}
       />
 
       <Script id="google-analytics-script" strategy="beforeInteractive">
@@ -30,11 +31,12 @@ function MyApp({ Component, pageProps }) {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+          gtag('config', 'G-YFRBJX664J', {
           page_path: window.location.pathname,
           });
     `}
       </Script>
+
       <Head>
         <meta
           name="viewport"
