@@ -131,7 +131,7 @@ export default function Step9() {
       interesse_finanzierung: userData.step4,
       dachform: userData.step3,
       art_heizung: userData.step5,
-      leadherkunft: "https://jagrashome.netlify.app/",
+      leadherkunft: "http://jagrashome.solar-pvcheck.de",
       Bemerkungen: calculatedDa,
       
     };
@@ -162,7 +162,7 @@ export default function Step9() {
         interesse_finanzierung: userData.step4,
         dachform: userData.step3,
         art_heizung: userData.step5,
-        leadherkunft: "https://jagrashome.netlify.app/",
+        leadherkunft: "http://jagrashome.solar-pvcheck.de",
         Bemerkungen: calculatedDa,
         project:"jagrashome"
       };
